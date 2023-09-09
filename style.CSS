@@ -1,0 +1,131 @@
+/*
+Note: a lot of this CSS was learned/taken from this tutorial video:
+https://youtu.be/Sv_NAxi_jNs?si=NzfyGyXdGGGifC54
+All of the HTML I did myself. 
+*/
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #656565;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.nav ul{
+    margin: 0;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.nav a:hover{
+ background-color: rgba(138, 43, 226, .3);
+}
+.main-nav{
+    text-align:center;
+    font-size: 1.4em;
+    font-weight: lighter;
+    border-bottom: 2px solid rgba(255,255,255, .3)
+}
+
+.main-nav li{
+    padding:0 5%;
+}
+.mainHeader{
+    background-color: rgba(0,0,0,.5);
+    background-image: url("imgs/header.png");
+    background-blend-mode: multiply;
+    background-size:cover;
+    padding-bottom: 15px;
+}
+ 
+.mainName {
+    text-align: center;
+    margin:0;
+    font-size: 5em;
+    color:whitesmoke;
+    font-weight: normal;
+
+}
+.contentSec {
+    margin:1em;
+}
+.container{
+    max-width: 900px;
+    margin:0 auto;
+    padding: 0 1.5em;
+}
+.secHead{
+    font-weight:normal;
+    color: #3a3838d8;
+    text-align: center;
+    font-size:2.5em;
+}
+.imges{
+    float:left;
+    height: 150px;
+    width: 150px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.mainFooter{
+    background-color:rgba(138, 43, 226, .3);
+    color:whitesmoke;
+    padding: .25em 0;
+}
+
+.mainFooterContainer{
+    display: flex;
+    align-items: center;
+}
+.mainFooterContainer ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+
+.footerNav li{
+    padding: 0 .5em;
+}
+
+.footerNav img{
+    width: 60px;
+    height: 60px;
+}
+
+.contentSec p{
+    font-size: 1.3em;
+}
+
+.contentSec h4{
+    font-size: 1.7em;
+    font-weight: normal;
+}
+.introImg{
+    
+    width: 100%;
+    
+}
+.img{
+    width: 175px;
+    float: right;
+    padding-left: 10px;
+}
+.pdf{
+    width: 100%;
+    height: 1200px;
+}
+.codeLang{
+    font-weight:normal;
+    color: #3a3838d8;
+    text-align: center;
+    font-size:1.9em;
+}
