@@ -110,9 +110,10 @@ html,body{
     font-weight: normal;
 }
 .introImg{
-    
-    width: 100%;
-    
+    padding-top:25px;
+    width: 50%;
+    margin-left:25%;
+    margin-right:25%;
 }
 .img{
     width: 175px;
